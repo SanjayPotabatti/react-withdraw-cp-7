@@ -1,1 +1,71 @@
 /* Write your CSS here */
+.bgContainer {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  background-color: #150b3e;
+  padding: 15px;
+  border-radius: 15px;
+  width: 500px;
+}
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+}
+.icon {
+  background-color: #c7d2fe;
+  border-radius: 40px;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  color: #7c3aed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+.heading {
+  color: #9892af;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.balanceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.para {
+  color: #382f5a;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.rupee {
+  color: #ffffff;
+}
+.paraContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  color: #382f5a;
+}
+.button {
+  background-color: #382f5a;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #585076;
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+}
